@@ -1,0 +1,3 @@
+Dependiendo de la DDBB  a la que se quiere conectar, se tiene que buscar su respecto Driver connector para JDBC, y tambińen depende de la versión JDK que se utilice, tiene que ser quivalente, entre más reciente DriverConnector tiene que ser igual con JDK
+
+

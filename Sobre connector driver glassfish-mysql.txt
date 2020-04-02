@@ -1,0 +1,37 @@
+
+NOTA SOBRE GLASSFISH
+Esta instalado en la ruta /home/tony/Appserver
+Dentro de esta ruta:
+/home/tony/Appserver/glassfish5/glassfish/lib
+Se pega el archivo mysql-connector-java-8-*.jar
+para conectarlo con la DDBB mysql
+
+Dentro del servidor Glassfish
+En path resource>JDBC>Connection Pools
+new connection pool
+Setear:
+Pool Name: NombrePool
+Resource Type: javax.sql.ConnectionPoolDataSource
+Database Driver Vendor: MySql
+
+Despues en resoure>JDBC>JDBC Resource
+new Resource:
+JNDI Name: NombreJNDI --> Se establece en archivo .xml en <jta-data-source>NombreJNDI</jta-data-source>
+Pool Name: DerbyPool
+
+SOBRE EL ARCHIRCHIVO mysql-connector-java-8-*.jar
+Se encuentran ela ruta:
+/home/tony/Desktop/tutorial-java/mysql-connector-java_8.**/data/usr/share/java
+Este es un archivo .jar 
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+Para conectar netbeans a Mysql se necesita del drive Mysql connector version-x.y.w
+En netbeans:
+Service > click derecho > new connection > add
+agregar el driver de Mysql, este se encuentran enel path:
+mysql-connector/data/usr/share/java/mysql-connector-8.0.17.jar
+dependiendo del paquete que se descarge, tendra o no la misma ruta, este driver debe ser .jar
+al igual que en el primer caso con glassfish
+

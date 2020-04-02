@@ -1,0 +1,7 @@
+/home/tony/Desktop/tutorial JAVA EE/ProyectosJAVA/sga-jee-web/src/main/java/mx/com/gm/sga/domain/Persona.java
+/home/tony/Desktop/tutorial JAVA EE/ProyectosJAVA/sga-jee-web/src/main/java/mx/com/gm/sga/servicio/PersonaServiceRemote.java
+/home/tony/Desktop/tutorial JAVA EE/ProyectosJAVA/sga-jee-web/src/main/java/mx/com/gm/sga/servicio/PersonaServiceImpl.java
+/home/tony/Desktop/tutorial JAVA EE/ProyectosJAVA/sga-jee-web/src/main/java/mx/com/gm/sga/datos/PersonaDaoImpl.java
+/home/tony/Desktop/tutorial JAVA EE/ProyectosJAVA/sga-jee-web/src/main/java/mx/com/gm/sga/datos/PersonaDao.java
+/home/tony/Desktop/tutorial JAVA EE/ProyectosJAVA/sga-jee-web/src/main/java/mx/com/gm/sga/servicio/PersonaService.java
+/home/tony/Desktop/tutorial JAVA EE/ProyectosJAVA/sga-jee-web/src/main/java/mx/com/gm/sga/web/PersonaServlet.java

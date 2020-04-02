@@ -1,0 +1,17 @@
+En caso de ocupar GlassFish y Netbeans 
+se debe modificar archivo /Project Files/pom.xml 
+y cambiar la version del JDK en <maven.compiler.source>[version JDK]</maven.compiler.source>
+ya que no soporta versiones nuevas, solo la 1.8 (Por ahora)
+
+
+Opcional: Establecer la versión de Java a usar
+Es posible que tengamos varias versiones de Java instaladas en el sistema, aunque solo se puede seleccionar una por defecto con los comandos «sudo update-alternatives –config java» y «sudo update-alternatives –config javac» como indicamos anteriormente en la instalación de OpenJDK.
+
+Pero es posible indicar a Netbeans que siempre use la misma versión de Java independientemente de la que tengamos seleccionada por defecto. Para ello tenemos que editar el archivo netbeans.conf con el siguiente comando:
+
+sudo nano /opt/netbeans/etc/netbeans.conf
+
+En este archivo nos desplazamos hasta donde pone ‘#netbeans_jdkhome=»/path/to/jdk«‘, y ahí ponemos la ruta donde está instalada la versión de Java que queramos utilizar con el IDE como se muestra en la imagen:
+Referencia
+https://instatecno.com/instalar-netbeans-linux-facilmente/
+
